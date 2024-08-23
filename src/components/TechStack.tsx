@@ -6,18 +6,18 @@ import { FaNodeJs } from "react-icons/fa"
 import { BiLogoPostgresql } from "react-icons/bi"
 import { motion } from "framer-motion";
 
-const iconVariants = (duration:number) => ({
-    initial:{y:-10},
-    animate:{
-      y:[10, -10],
-      transition :{
-        duration:duration,
-        ease:"Linear",
-        repeat: Infinity,
-        repeatType:"reverse"
-      }
-    }
-  })
+// const iconVariants = (duration:number) => ({
+//     initial:{y:-10},
+//     animate:{
+//       y:[10, -10],
+//       transition :{
+//         duration:duration,
+//         ease:"Linear",
+//         repeat: Infinity,
+//         repeatType:"reverse"
+//       }
+//     }
+//   })
 
 const TechStack = () => {
   return (

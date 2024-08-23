@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <div className="flex m-8 items-center justify-center gap-4 text-2xl">
             <FaLinkedin />
-            <FaGithub />
+            <FaGithub href={'https://github.com/shashwat558'} />
             <FaSquareXTwitter />
             <FaInstagram />
 
